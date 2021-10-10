@@ -1,0 +1,35 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass -w src/resource/scss/ -o src/public/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ki-it-dev/nodeJs_Blog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs"
+  ],
+  "author": "Khoa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ki-it-dev/nodeJs_Blog/issues"
+  },
+  "homepage": "https://github.com/Ki-it-dev/nodeJs_Blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "mongoose": "^6.0.8"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
